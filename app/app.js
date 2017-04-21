@@ -1,2 +1,12 @@
-let a123=1
-console.log(a123)
+
+
+//TODO: Add Webpack later.
+
+const Hello = (
+    <h1>Hello React!</h1>
+);
+
+ReactDOM.render(
+    Hello,
+    document.getElementById('root')
+)
