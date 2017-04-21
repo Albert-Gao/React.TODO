@@ -11,7 +11,10 @@ module.exports = {
             include:[path.resolve(__dirname, 'app')],
             exclude: [path.resolve(__dirname,"node_modules")],
             loader: "babel-loader",
-            query: {presets: ["env","react"]},
+            query: {
+                presets: ["env","react"]
+            },
         }]
-    }
+    },
+    devtool: "source-map"
 }
