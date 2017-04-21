@@ -22,10 +22,13 @@
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
     "babel-preset-env": "^1.4.0",
     "babel-preset-react": "^6.24.1",
     "chai": "^3.5.0",
     "enzyme": "^2.8.2",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "webpack": "^2.4.1"
   }
 }
