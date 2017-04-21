@@ -1,9 +1,10 @@
-
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 //TODO: Add Webpack later.
 
 const Hello = (
-    <h1>Hello React!</h1>
+    <h1>Hello React !!!!</h1>
 );
 
 ReactDOM.render(
