@@ -30,5 +30,8 @@
     "enzyme": "^2.8.2",
     "mocha": "^3.2.0",
     "webpack": "^2.4.1"
+  },
+  "scripts":{
+    "build": "./node_modules/.bin/webpack"
   }
 }
