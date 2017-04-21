@@ -1,0 +1,31 @@
+{
+  "name": "react.todo",
+  "version": "0.0.1",
+  "description": "An responsive todo app which save to your local storage",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr-Binary/React.TODO.git"
+  },
+  "author": "Albert Gao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mr-Binary/React.TODO/issues"
+  },
+  "homepage": "https://github.com/Mr-Binary/React.TODO#readme",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^3.5.0",
+    "enzyme": "^2.8.2",
+    "mocha": "^3.2.0"
+  }
+}
