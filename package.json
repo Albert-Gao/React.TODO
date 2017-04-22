@@ -5,7 +5,8 @@
   "main": "app/app.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack",
-    "test": "./node_modules/.bin/mocha tests/*.js --require babel-register --reporter spec||exit 0"
+    "test": "./node_modules/.bin/mocha tests/*.js --require babel-register --reporter spec||exit 0",
+    "start": "./node_modules/.bin/webpack-dev-server"
   },
   "repository": {
     "type": "git",
