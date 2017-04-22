@@ -2,11 +2,16 @@ import React from 'react'
 
 //TODO: Add test case later.
 
+export const Greeting = (
+    <h1>4412</h1>
+);
+
 export class First extends React.Component{
     render(){
         return(
             <div>
-                <h1>Hello {this.props.myname}</h1>
+                {Greeting}
+                <h1>Hello++!!!</h1>
             </div>
         );
     }

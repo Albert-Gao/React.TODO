@@ -1,16 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {First} from './Components'
-import {AppContainer} from 'react-hot-loader'
+import {First, Greeting} from './Components'
 
 //TODO: Add test case later.
 
 
 const render = (Component) => {
     ReactDOM.render(
-        <AppContainer>
-            <Component/>
-        </AppContainer>,
+        <Component/>,
         document.getElementById('root')
     );
 };
