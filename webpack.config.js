@@ -1,10 +1,10 @@
 var path = require('path')
-const webpack = require('webpack');
+var webpack = require('webpack');
 
 module.exports = {
     entry: [
         'react-hot-loader/patch',
-        'webpack-dev-server/client?http://localhost:8080',
+        'webpack-dev-server/client?http://localhost:9876',
         'webpack/hot/only-dev-server',
         './app/app.js'
     ],
@@ -18,17 +18,15 @@ module.exports = {
             test: /\.jsx?$/,
             include:[path.resolve(__dirname, 'app')],
             exclude: [path.resolve(__dirname,"node_modules")],
-            loader: "babel-loader",
-            query: {
-                presets: ["env","react"]
-            },
+            loader: "babel-loader"
         }]
     },
     devtool: "source-map",
     devServer: {
         hot: true,
         contentBase: path.resolve(__dirname, 'dist'),
-        publicPath: '/'
+        publicPath: '/',
+        port:9876
     },
     plugins: [
         new webpack.HotModuleReplacementPlugin(),
