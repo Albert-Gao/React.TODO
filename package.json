@@ -6,7 +6,7 @@
   "scripts": {
     "build": "./node_modules/.bin/webpack",
     "test": "./node_modules/.bin/mocha tests/*.js --require babel-register --reporter spec||exit 0",
-    "start": "./node_modules/.bin/webpack-dev-server"
+    "start": "./node_modules/.bin/webpack-dev-server --progress"
   },
   "repository": {
     "type": "git",
